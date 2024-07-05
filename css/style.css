@@ -1,0 +1,59 @@
+* {
+    list-style: none;
+    text-decoration: none !important;
+}
+
+:root {
+    --mavi: #6bc1f1;
+    --bgfooter: #072035;
+    --bgboz: #f1f1f1;
+}
+header { background: url('../img/headerbg.webp') 60% 50%/cover}
+.bg-mavi { background-color: var(--mavi)}
+.bg-boz { background-color: var(--bgboz)}
+#artfoto1{background: url('/img/artfoto1.webp') center/cover}
+#artfoto2{background: url('/img/artfoto2.webp') center/cover}
+#artfoto1:hover, #artfoto2:hover {opacity: .6;}
+#artfoto1:hover h4, #artfoto2:hover h4 { display: initial!important;}
+
+.bg-footer {background-color: var(--bgfooter)}
+
+.text-mavi {color: var(--mavi)}
+.btn-mavi{border: 1px solid var(--mavi)}
+
+
+
+
+
+
+.caruselBg {
+    height: 60vh;
+    background-color: #6bc2f1;
+}
+
+.soz {
+    display: inline-block;
+    color: red !important;
+    width: 40px !important;
+    height: 40px !important;
+    background-color: black;
+}
+
+.carousel-indicators [data-bs-target] {
+    text-indent: initial !important;
+    height: initial !important;
+    width: initial !important;
+    opacity: initial !important;
+    background-color: transparent !important;
+    transition: 1s !important;
+}
+
+.carousel-indicators [data-bs-target] img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.carousel-indicators .active {
+    scale: 1.3;
+}

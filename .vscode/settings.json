@@ -1,0 +1,17 @@
+{
+    "json.schemas": [
+        {
+            "editor.fontSize": 14,
+            "editor.smoothScrolling": false,
+            "disable-hardware-acceleration": true,
+            "editor.renderLineHighlight": "none",
+            "editor.renderWhitespace": "none",
+            "window.zoomLevel": 0,
+            "editor.cursorBlinking": "solid",
+            "editor.cursorSmoothCaretAnimation": false,
+            "editor.cursorStyle": "line"
+            
+          }
+          
+    ]
+}
